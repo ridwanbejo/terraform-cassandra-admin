@@ -2,7 +2,7 @@
 
 This is a Terraform module for managing keyspace, grant and role at Cassandra. You can use this module both for commercial or non-commercial purposes.
 
-Currently, you can manage these resources in Kubernetes by using this module:
+Currently, you can manage these resources in Cassandra by using this module:
 
 - keyspace
 - grant
@@ -22,19 +22,21 @@ Requirements:
 
 You can check any examples projects that use this module under `examples` directory.
 
-- csi-driver-1-basic
-- csi-driver-2-multiple
-- storage-class-1-basic
-- storage-class-2-multiple
+- keyspace-1-basic
+- keyspace-2-multiple
+- role-1-basic
+- role-2-grant
+- role-3-multiple
 
 ## C. Understanding tfvars scenarios
 
 You can check any examples tfvars that use this module under `examples` directory.
 
-- csi-driver-1-basic
-- csi-driver-2-multiple
-- storage-class-1-basic
-- storage-class-2-multiple
+- keyspace-1-basic
+- keyspace-2-multiple
+- role-1-basic
+- role-2-grant
+- role-3-multiple
 
 ## D. Ensuring quality
 
@@ -58,8 +60,8 @@ The tools:
 
 ## E. How to contribute ?
 
-If you find any issue, you can raise it here at our [Issue Tracker](https://github.com/ridwanbejo/terraform-kubernetes-storage/issues)
+If you find any issue, you can raise it here at our [Issue Tracker](https://github.com/ridwanbejo/terraform-cassandra-admin/issues)
 
-If you have something that you want to merge to this repo, just raise [Pull Requests](https://github.com/ridwanbejo/terraform-kubernetes-storage/pulls)
+If you have something that you want to merge to this repo, just raise [Pull Requests](https://github.com/ridwanbejo/terraform-cassandra-admin/pulls)
 
 Ensure that you install all the tools from section D. for development purpose.
